@@ -1,0 +1,127 @@
+
+/*
+base
+*/
+:root {
+    --bg-color: #b1b1b1;
+    --brand-orange: #faac27;
+    --text-color-white: #fdfdfe;
+    --text-color-black: #4a4a4a;
+
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    margin: 0.1em 0;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1rem;
+}
+
+.cta-button {
+    background-color: var(--brand-orange);
+    padding: 0.5em 2em;
+    border-radius: 50px;
+    color: var(--text-color-white);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+/*
+
+    HELLO PAGE
+
+*/
+.hello-page {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color-white);
+}
+
+/* header */
+header {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1em 1em;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #8694a8;
+}
+
+header .cta-call {
+    color: var(--text-color-white);
+    text-decoration: none;
+    margin: auto 0;
+    text-transform: capitalize;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 1em 1em;
+    color: var(--text-color-white);
+    text-transform: capitalize;
+}
+
+
+/* content */
+.hello-page .content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10em 3em;
+}
+
+.hello-page .content .cta-button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.hello-page .content .promo {
+    text-align: left;
+    margin-top: 15em;
+}
+
+.hello-page .content .promo strong {
+    text-transform: uppercase;
+}
+
+
+
+
+/*
+
+    WELCOME PAGE = second page
+
+*/
