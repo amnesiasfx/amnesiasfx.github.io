@@ -1,0 +1,40 @@
+@import "base.css";
+@import "header.css";
+@import "footer.css";
+@import "tile.css";
+
+
+.logo-row {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+.logo {
+    width: 100%;
+}
+
+
+.all-works {
+    text-decoration: none;
+    border: 2px solid var(--main-text-color);
+    padding: 0.5em 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    letter-spacing: 1.5px;
+    margin-bottom: 5em;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    transition: background-color 0.5s, color 0.5s;
+}
+.all-works:hover {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+}

@@ -1,0 +1,40 @@
+
+/* 
+
+    footer
+
+*/
+footer {
+    max-width: 1080px;
+    padding: 3em 4em;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .email {
+    margin-top: 0.5em;
+    color: var(--secondary-bg-color);
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: -0.5em;
+}
+
+footer ul a {
+    color: var(--secondary-bg-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.5em;
+    display: inline-block;
+    font-weight: 900;
+}
+
+footer ul a:hover {
+    color: var(--main-text-color);
+}
+
+footer li.featured a {
+    color: var(--main-text-color);
+}

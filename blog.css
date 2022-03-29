@@ -1,0 +1,29 @@
+@import "base.css";
+@import "header.css";
+@import "footer.css";
+@import "tile.css";
+
+
+.post-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 1em;
+    row-gap: 2em;
+}
+
+.post_thumbnail img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.post_thumbnail img:hover {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+.tile-row {
+    max-width: 800px;
+}

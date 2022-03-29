@@ -1,0 +1,48 @@
+/* 
+
+    base
+
+*/
+:root {
+    --main-text-color: black; 
+    
+    --main-bg-color: rgb(253, 253, 253);
+    --secondary-bg-color: rgb(185, 185, 185);
+
+    --bg-color-black:   rgb(26, 26, 26);
+
+
+
+
+
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg-color);
+    letter-spacing: 0.05em;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+
+main > * {
+    margin-top: 2em;
+}
